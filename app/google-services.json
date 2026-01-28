@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "844297662677",
+    "project_id": "ecostayretreatapp",
+    "storage_bucket": "ecostayretreatapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844297662677:android:114c0111c8f9e0a8f8b25c",
+        "android_client_info": {
+          "package_name": "com.example.ecostayapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUKG8TQaUrtxtLxfljTKMjSy4OPoojsAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+
+
+
+
+

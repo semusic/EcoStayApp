@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_light">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_color"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Admin Dashboard"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+        <ImageView
+            android:id="@+id/btnAdminLogout"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_logout"
+            android:tint="@color/white"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="6dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:contentDescription="Logout" />
+
+    </LinearLayout>
+
+    <!-- Main Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Primary Actions Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="12dp">
+
+            <Button
+                android:id="@+id/btnAddRoom"
+                style="@style/EcoButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Add Room"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginEnd="6dp"
+                android:paddingVertical="16dp"
+                android:drawableStart="@drawable/ic_add"
+                android:drawablePadding="6dp" />
+
+            <Button
+                android:id="@+id/btnViewBookings"
+                style="@style/EcoButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="View Bookings"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginStart="6dp"
+                android:paddingVertical="16dp"
+                android:drawableStart="@drawable/ic_calendar"
+                android:drawablePadding="6dp" />
+
+        </LinearLayout>
+
+        <!-- Secondary Actions Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnSendNotifications"
+                style="@style/EcoButtonOutlined"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Send Notifications"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary_color"
+                android:strokeColor="@color/primary_color"
+                android:paddingVertical="16dp"
+                android:drawableStart="@drawable/ic_notifications"
+                android:drawablePadding="6dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Room List Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Rooms"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="8dp" />
+
+    <!-- Rooms RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewAdminRooms"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:clipToPadding="false" />
+
+</LinearLayout>
+

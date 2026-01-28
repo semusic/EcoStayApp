@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="80dp"
+    android:height="80dp"
+    android:viewportWidth="80"
+    android:viewportHeight="80">
+    
+    <!-- House Base -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="M20,60 L20,40 L40,25 L60,40 L60,60 Z" />
+    
+    <!-- House Roof -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M15,40 L40,15 L65,40 Z" />
+    
+    <!-- Solar Panels on Roof -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M25,25 L33,25 L33,31 L25,31 Z" />
+    <path
+        android:fillColor="#424242"
+        android:pathData="M47,25 L55,25 L55,31 L47,31 Z" />
+    
+    <!-- Windows -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M25,45 L33,45 L33,55 L25,55 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M47,45 L55,45 L55,55 L47,55 Z" />
+    
+    <!-- Door -->
+    <path
+        android:fillColor="#7AC58A"
+        android:pathData="M38,50 L42,50 L42,60 L38,60 Z" />
+    
+    <!-- Trees/Bushes (as circles using path) -->
+    <path
+        android:fillColor="#7AC58A"
+        android:pathData="M10,65 A6,6 0 1,1 10,53 Z" />
+    <path
+        android:fillColor="#7AC58A"
+        android:pathData="M70,65 A6,6 0 1,1 70,53 Z" />
+    <path
+        android:fillColor="#7AC58A"
+        android:pathData="M10,50 A4,4 0 1,1 10,42 Z" />
+    <path
+        android:fillColor="#7AC58A"
+        android:pathData="M70,50 A4,4 0 1,1 70,42 Z" />
+        
+</vector>

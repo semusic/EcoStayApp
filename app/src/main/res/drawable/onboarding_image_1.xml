@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="300dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="@color/eco_green_light"
+        android:pathData="M0,0 L300,0 L300,300 L0,300 Z" />
+    
+    <!-- Mountain -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M0,200 L100,120 L200,150 L300,180 L300,300 L0,300 Z" />
+    
+    <!-- Trees -->
+    <path
+        android:fillColor="@color/eco_green_dark"
+        android:pathData="M50,200 L55,160 L60,200 Z" />
+    <path
+        android:fillColor="@color/eco_green_dark"
+        android:pathData="M100,190 L105,150 L110,190 Z" />
+    <path
+        android:fillColor="@color/eco_green_dark"
+        android:pathData="M150,195 L155,155 L160,195 Z" />
+    <path
+        android:fillColor="@color/eco_green_dark"
+        android:pathData="M200,185 L205,145 L210,185 Z" />
+    <path
+        android:fillColor="@color/eco_green_dark"
+        android:pathData="M250,200 L255,160 L260,200 Z" />
+    
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M220,60 m-20,0 a20,20 0 1,1 40,0 a20,20 0 1,1 -40,0" />
+    
+    <!-- Sun rays -->
+    <path
+        android:fillColor="#FFD700"
+        android:strokeColor="#FFD700"
+        android:strokeWidth="3"
+        android:pathData="M200,60 L180,60 M240,60 L260,60 M220,40 L220,20 M220,80 L220,100 M205,45 L195,35 M235,45 L245,35 M205,75 L195,85 M235,75 L245,85" />
+    
+    <!-- Clouds -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,80 m-15,0 a15,15 0 1,1 30,0 a10,10 0 1,1 -20,0 a15,15 0 1,1 -10,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M180,90 m-12,0 a12,12 0 1,1 24,0 a8,8 0 1,1 -16,0 a12,12 0 1,1 -8,0" />
+</vector>

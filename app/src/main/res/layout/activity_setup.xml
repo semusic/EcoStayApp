@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_light"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Firebase Setup"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add sample data to Firebase Firestore"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Add Rooms Button -->
+    <Button
+        android:id="@+id/btnAddRooms"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🏨 Add Sample Rooms"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/primary_color"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add Eco Initiatives Button -->
+    <Button
+        android:id="@+id/btnAddInitiatives"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🌱 Add Eco Initiatives"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/primary_color"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Add Activities Button -->
+    <Button
+        android:id="@+id/btnAddActivities"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🎯 Add Sample Activities"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/primary_color"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Add All Button -->
+    <Button
+        android:id="@+id/btnAddAll"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="🚀 Add All Sample Data"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/eco_green_dark"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Warning Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚠️ Warning: This will add data to your Firebase database. Only use during development/testing."
+        android:textSize="14sp"
+        android:textColor="@color/error_color"
+        android:gravity="center"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
+
+
+
+
+
+
+

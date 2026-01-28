@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">EcoStay Retreat</string>
+    
+    <!-- Onboarding texts -->
+    <string name="onboarding_text_1">Discover and find\nyour perfect healing\nplace</string>
+    <string name="onboarding_text_2">Experience sustainable\nluxury in nature\'s\nembrace</string>
+    <string name="onboarding_text_3">Connect with nature\nthrough eco-friendly\nadventures</string>
+    <string name="onboarding_text_4">Join our community\nof conscious travelers</string>
+    
+    <!-- Authentication -->
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="phone_number">Phone number</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="create_account">Create an account</string>
+    <string name="already_have_account">Already have an account? Sign in</string>
+    <string name="new_to_ecostay">New to EcoStay?</string>
+    
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="rooms">Rooms</string>
+    <string name="activities">Activities</string>
+    <string name="bookings">Bookings</string>
+    <string name="profile">Profile</string>
+    
+    <!-- Room types -->
+    <string name="mountain_view_cabin">Mountain View Cabin</string>
+    <string name="eco_pod">Eco Pod</string>
+    <string name="treehouse">Treehouse</string>
+    <string name="sustainable_suite">Sustainable Suite</string>
+    
+    <!-- Activities -->
+    <string name="guided_hike">Guided Hike</string>
+    <string name="eco_tour">Eco Tour</string>
+    <string name="sustainability_workshop">Sustainability Workshop</string>
+    <string name="bird_watching">Bird Watching</string>
+    <string name="nature_photography">Nature Photography</string>
+    <string name="yoga_session">Yoga Session</string>
+    
+    <!-- Common -->
+    <string name="book_now">Book Now</string>
+    <string name="view_details">View Details</string>
+    <string name="price_per_night">Price per night</string>
+    <string name="available">Available</string>
+    <string name="booked">Booked</string>
+    <string name="total_price">Total Price</string>
+    <string name="check_in">Check In</string>
+    <string name="check_out">Check Out</string>
+    <string name="guests">Guests</string>
+    
+    <!-- Error messages -->
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_do_not_match">Passwords do not match</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_unknown">An unknown error occurred</string>
+    
+    <!-- Success messages -->
+    <string name="success_booking">Booking successful!</string>
+    <string name="success_registration">Registration successful!</string>
+    <string name="success_login">Login successful!</string>
+    
+    <!-- Firebase -->
+    
+</resources>

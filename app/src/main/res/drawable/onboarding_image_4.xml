@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="300dp"
+    android:viewportWidth="300"
+    android:viewportHeight="300">
+    
+    <!-- Background -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M0,0 L300,0 L300,300 L0,300 Z" />
+    
+    <!-- Welcome Building -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,120 L220,120 L220,240 L80,240 Z" />
+    
+    <!-- Building Roof -->
+    <path
+        android:fillColor="@color/eco_green_dark"
+        android:pathData="M70,120 L150,80 L230,120 Z" />
+    
+    <!-- Windows -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M100,140 L120,140 L120,160 L100,160 Z" />
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M140,140 L160,140 L160,160 L140,160 Z" />
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M180,140 L200,140 L200,160 L180,160 Z" />
+    
+    <!-- Window Frames -->
+    <path
+        android:fillColor="#654321"
+        android:strokeColor="#654321"
+        android:strokeWidth="2"
+        android:pathData="M100,150 L120,150 M110,140 L110,160 M140,150 L160,150 M150,140 L150,160 M180,150 L200,150 M190,140 L190,160" />
+    
+    <!-- Door -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M145,200 L155,200 L155,240 L145,240 Z" />
+    
+    <!-- Door Handle -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M152,220 m-2,0 a2,2 0 1,1 4,0 a2,2 0 1,1 -4,0" />
+    
+    <!-- Welcome Banner -->
+    <path
+        android:fillColor="@color/eco_green_light"
+        android:pathData="M50,90 L250,90 L250,100 L50,100 Z" />
+    
+    <!-- Banner Text Lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M60,95 L90,95 M110,95 L140,95 M160,95 L190,95 M210,95 L240,95" />
+    
+    <!-- Eco Stars -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M60,60 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M240,70 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M270,50 m-4,0 a4,4 0 1,1 8,0 a4,4 0 1,1 -8,0" />
+    
+    <!-- Eco Leaves -->
+    <path
+        android:fillColor="@color/eco_green_light"
+        android:pathData="M40,200 Q45,195 50,200 Q45,205 40,200" />
+    <path
+        android:fillColor="@color/eco_green_light"
+        android:pathData="M260,210 Q265,205 270,210 Q265,215 260,210" />
+    
+    <!-- Ground -->
+    <path
+        android:fillColor="#90EE90"
+        android:pathData="M0,240 L300,240 L300,300 L0,300 Z" />
+</vector>
